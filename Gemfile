@@ -14,4 +14,4 @@ gem "middleman-minify-html"
 #   All setup instructions can be found here: https://github.com/toy/image_optim
 gem 'middleman-imageoptim'
 
-gem 'middleman-gh-pages'
+gem 'middleman-deploy', '~> 1.0'
