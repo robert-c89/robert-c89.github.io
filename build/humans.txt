@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+    <Robert Cole> - Owner - <rcole42@gmail.com>
+
+/* THANKS */
+    <Middleman Basis> -- <https://github.com/pzi/middleman-basis>
+
+/* SITE */
+    Last update: 2016-06-10
+    Language: English
+    Standards: CSS3, HTML5, JavaScript
+    Components: Apache Server Configs, Modernizr, Normalize.css, html5shiv
+    Software: Atom
