@@ -1,3 +1,5 @@
+require_relative "./lib/build_cleaner"
+
 # --------------------------------------------------------------------------------------------------
 # Helpers
 # --------------------------------------------------------------------------------------------------
@@ -94,10 +96,6 @@ configure :build do
   # Uniquely-named assets (cache buster)
   # Exception: svg & png in images folder because they need to be interchangeable by JS
   activate :asset_hash, ignore: [/images\/(.*\.png|.*\.svg)/]
-end
 
-configure :deploy do
-  set :skip_build_clean do |path|
-    path =~ /\.git/
-  end
+  activate :build_cleaner
 end
