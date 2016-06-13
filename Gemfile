@@ -8,10 +8,10 @@ gem 'middleman-search_engine_sitemap'
 
 # Source minification
 gem "middleman-minify-html"
-# gem "middleman-smusher"
 
 # middleman-optim requires external utilities:
 #   All setup instructions can be found here: https://github.com/toy/image_optim
 gem 'middleman-imageoptim'
 
-gem 'middleman-gh-pages'
+gem 'middleman-gh-pages'  # Build and deploy
+gem 'modular-scale'       # Modular scale typogrpahy

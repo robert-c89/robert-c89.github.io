@@ -115,6 +115,8 @@ GEM
     mime-types-data (3.2016.0221)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
+    modular-scale (2.1.1)
+      compass (>= 0.12.0)
     multi_json (1.11.3)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -169,6 +171,7 @@ DEPENDENCIES
   middleman-livereload
   middleman-minify-html
   middleman-search_engine_sitemap
+  modular-scale
 
 BUNDLED WITH
    1.12.5
