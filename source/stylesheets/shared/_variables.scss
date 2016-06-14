@@ -8,8 +8,8 @@ $secondary-text: #727272;
 $divider: #B6B6B6;
 
 // Typography
-// $font-family: ;
-// $header-font-family: ;
+$font-family: 'Roboto', sans-serif;
+$header-font-family: 'Oswald', sans-serif;
 $font-color: $secondary-text;
 $header-font-color: $primary-text;
 
@@ -17,7 +17,7 @@ $ms-base: 16;
 $ms-ratio: $major-third;
 
 $base-font-size: 16px;
-$base-small-font-size: 15px;
+$base-small-font-size: 16px;
 $base-line-height: 24px;
 
 $ms-base: $base-font-size;
@@ -26,16 +26,16 @@ $ms-small-base: $base-small-font-size;
 $ms-ratio: $augmented-fourth;
 $ms-small-ratio: $major-third;
 
+$ms-up-4: ms(5);
 $ms-up-3: ms(4);
 $ms-up-2: ms(3);
 $ms-up-1: ms(2);
 $ms-up:   ms(1);
 $ms-0: $ms-base;
-$ms-down: ms(-1);
 
+$ms-small-up-4: ms(5, $ms-base, $ms-small-ratio);
 $ms-small-up-3: ms(4, $ms-base, $ms-small-ratio);
 $ms-small-up-2: ms(3, $ms-base, $ms-small-ratio);
 $ms-small-up-1: ms(2, $ms-base, $ms-small-ratio);
 $ms-small-up:   ms(1, $ms-base, $ms-small-ratio);
 $ms-0: $ms-base;
-$ms-small-down:  ms(-1);

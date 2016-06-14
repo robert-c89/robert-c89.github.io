@@ -3,47 +3,49 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   color: $header-font-color;
+  font-family: $header-font-family;
 }
 
 p {
   margin: 1.5em 0;
   color: $font-color;
+  font-family: $font-family;
 }
 
 $typographic-element: (
   h1: (
+    $ms-up-4,
+    $ms-small-up-4
+  ),
+
+  h2: (
     $ms-up-3,
     $ms-small-up-3
   ),
 
-  h2: (
-    $ms-up-2,
+  h3: (
+    $ms-up-2
     $ms-small-up-2
   ),
 
-  h3: (
-    $ms-up-1
+  h4: (
+    $ms-up-1,
     $ms-small-up-1
   ),
 
-  h4: (
-    $ms-up,
-    $ms-small-up
-  ),
-
   h5: (
-    $ms-base,
-    $ms-base
+    $ms-up,
+    $ms-up
   ),
 
   h6: (
-    $ms-down,
-    $ms-small-down
+    $ms-0,
+    $ms-0
   ),
 
   p: (
-    $ms-base,
-    $ms-small-base
+    $ms-0,
+    $ms-0
   ),
 );
 
@@ -59,4 +61,5 @@ $typographic-element: (
 
 body {
   @include debug-vertical-alignment();
+  font-family: $font-family;
 }
