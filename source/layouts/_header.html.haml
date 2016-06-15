@@ -1,9 +1,9 @@
--# %header{role: "banner"}
--#   %h1= link_to data.config.site.title, "/", rel: "home"
--#
--#   %nav{role: "navigation"}
--#     %h2
--#       Navigation
--#     %ul
--#       %li{nav_active("page.html")}
--#         = link_to "Sample page", "page.html"
+%header{role: "banner"}
+  %nav{role: "navigation"}
+    %ul
+      %li{nav_active("about.html")}
+        = link_to "About", "about.html"
+      %li{nav_active("photos.html")}
+        = link_to "Photos", "photos.html"
+      %li{nav_active("code.html")}
+        = link_to "Code", "code.html"

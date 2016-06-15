@@ -1,0 +1,28 @@
+header nav {
+  padding: 1.5em;
+  position: absolute;
+  top: 0; right: 0; left: 0;
+  text-align: right;
+  z-index: 10;
+
+  ul {
+    margin: 0;
+    list-style: none;
+
+    li {
+      margin-left: 1rem;
+      display: inline-block;
+
+      &.current a {
+        color: $accent;
+        cursor: default;
+      }
+    }
+  }
+
+  a {
+    @include adjust-font-size-to(32px);
+    font-family: $header-font-family;
+    transition: color 300ms;
+  }
+}
