@@ -6,11 +6,13 @@ $accent: #FFC107;
 $primary-text: #212121;
 $secondary-text: #727272;
 $divider: #B6B6B6;
+$bg-color: rgba(255,255,255,0.6);
+$link-hover: scale-color($accent, $lightness: -28%);
 
 // Typography
 $font-family: 'Roboto', sans-serif;
 $header-font-family: 'Oswald', sans-serif;
-$font-color: $secondary-text;
+$font-color: $primary-text;
 $header-font-color: $primary-text;
 
 $ms-base: 16;

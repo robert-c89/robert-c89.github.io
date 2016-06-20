@@ -3,9 +3,10 @@ body.home {
     padding: 1.25em 1.5em;
     position: absolute;
     right: 0; bottom: 0; left: 0;
+    background-color: $bg-color;
 
     h1, h4 {
-      color: $primary;
+      color: $dark-primary;
       display: inline-block;
     }
 
@@ -24,6 +25,12 @@ body.home {
     hr {
       margin: 0;
       border-color: $accent;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .text {
+      padding: 0.5em;
     }
   }
 }

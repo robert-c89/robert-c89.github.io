@@ -2,11 +2,13 @@ header nav {
   padding: 1.5em;
   position: absolute;
   top: 0; right: 0; left: 0;
+  background-color: $bg-color;
   text-align: right;
   z-index: 10;
 
   ul {
     margin: 0;
+    padding: 0;
     list-style: none;
 
     li {
@@ -14,8 +16,10 @@ header nav {
       display: inline-block;
 
       &.current a {
-        color: $accent;
+        color: $link-hover;
         cursor: default;
+        pointer-events: none;
+        text-decoration: underline;
       }
     }
   }
@@ -24,5 +28,17 @@ header nav {
     @include adjust-font-size-to(32px);
     font-family: $header-font-family;
     transition: color 300ms;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 0.5em;
+
+    ul {
+      text-align: center;
+
+      li {
+        margin: 0 0.25rem;
+      }
+    }
   }
 }
