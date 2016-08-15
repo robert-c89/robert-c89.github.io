@@ -1,4 +1,5 @@
 #= require vendor/modernizr
+#= require lightbox2/dist/js/lightbox-plus-jquery.js
 
 document.onreadystatechange = ->
   if document.readyState == 'interactive'
