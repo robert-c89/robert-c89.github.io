@@ -13,9 +13,12 @@ body.about {
     text-align: left;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 30em) {
     article {
+      padding-top: 9em;
       position: relative;
+      top: 0; left: 0;
+      transform: none;
     }
   }
 }
