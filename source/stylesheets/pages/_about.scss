@@ -12,4 +12,10 @@ body.about {
     transform: translate(-50%, -50%);
     text-align: left;
   }
+
+  @media only screen and (max-width: 480px) {
+    article {
+      position: relative;
+    }
+  }
 }
