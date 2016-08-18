@@ -25,8 +25,9 @@ header nav {
   }
 
   a {
-    @include adjust-font-size-to(32px);
+    @include adjust-font-size-to(25px);
     font-family: $header-font-family;
+    font-weight: 400;
     transition: color 300ms;
   }
 
