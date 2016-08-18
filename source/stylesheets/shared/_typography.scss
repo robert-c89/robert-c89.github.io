@@ -1,7 +1,7 @@
 @include establish-baseline();
 
 body {
-  @include debug-vertical-alignment();
+  // @include debug-vertical-alignment();
   font-family: $font-family;
 }
 
