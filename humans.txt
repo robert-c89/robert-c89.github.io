@@ -8,7 +8,7 @@
     <Middleman Basis> -- <https://github.com/pzi/middleman-basis>
 
 /* SITE */
-    Last update: 2016-06-10
+    Last update: 2016-08-18
     Language: English
     Standards: CSS3, HTML5, JavaScript
     Components: Apache Server Configs, Modernizr, Normalize.css, html5shiv
