@@ -3,6 +3,10 @@ body.code {
     max-width: 85%;
     margin: 6em auto 3em;
     text-align: center;
+
+    p {
+      font-style: italic;
+    }
   }
 
   .project {
@@ -32,6 +36,7 @@ body.code {
 
       p {
         margin: 0;
+        font-style: normal;
       }
     }
   }
