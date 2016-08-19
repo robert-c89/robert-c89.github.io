@@ -4,13 +4,17 @@ body.code {
     margin: 6em auto 3em;
     text-align: center;
 
+    h5 {
+      font-weight: 400;
+    }
+
     p {
       font-style: italic;
     }
   }
 
   .project {
-    margin-bottom: 1.5em;
+    margin-bottom: 2.3125em;
 
     a, .info {
       width: calc(50% - 1rem);

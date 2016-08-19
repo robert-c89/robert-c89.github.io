@@ -9,12 +9,16 @@ body.photos {
     margin: 6em auto 3em;
     padding: 0 1em;
 
+    h5 {
+      font-weight: 400;
+    }
+
     p {
       font-style: italic;
     }
 
     a {
-      margin-bottom: 0.5rem;
+      margin-bottom: 1.0625rem;
       display: block;
     }
   }
