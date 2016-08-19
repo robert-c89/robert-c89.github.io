@@ -28,6 +28,11 @@ activate :automatic_image_sizes
 # Split up each required asset into its own script/style tag instead of combining them
 set :debug_assets, true
 
+# Use Autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['> 5%']
+end
+
 # --------------------------------------------------------------------------------------------------
 # Paths
 # --------------------------------------------------------------------------------------------------

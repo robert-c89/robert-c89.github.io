@@ -7,6 +7,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    autoprefixer-rails (6.4.0.2)
+      execjs
     builder (3.2.2)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -75,6 +77,9 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
+    middleman-autoprefixer (2.7.0)
+      autoprefixer-rails (>= 6.3.1, < 7.0.0)
+      middleman-core (>= 3.3.3)
     middleman-bower (1.0.2)
       sprockets-bower (>= 0.0.2)
     middleman-core (3.4.1)
@@ -165,6 +170,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3)
+  middleman-autoprefixer
   middleman-bower
   middleman-gh-pages
   middleman-imageoptim

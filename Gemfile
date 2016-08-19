@@ -13,5 +13,6 @@ gem "middleman-minify-html"
 #   All setup instructions can be found here: https://github.com/toy/image_optim
 gem 'middleman-imageoptim'
 
-gem 'middleman-gh-pages'  # Build and deploy
-gem 'modular-scale'       # Modular scale typogrpahy
+gem 'middleman-gh-pages'      # Build and deploy
+gem 'modular-scale'           # Modular scale typography
+gem 'middleman-autoprefixer'  # Middleman autoprefixer
