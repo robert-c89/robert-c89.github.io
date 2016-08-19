@@ -13,3 +13,9 @@ document.onreadystatechange = ->
       for img in imgs
         if img.src.match(endsWithDotSvg)
           img.src = img.src.replace(/.svg$/, '.png')
+
+lightbox.option(
+  'alwaysshowNavOnTouchDevices': true,
+  'disableScrolling': true,
+  'showImageNumberLabel': false
+)
