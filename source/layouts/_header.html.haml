@@ -1,6 +1,9 @@
 %header{role: "banner"}
   %nav{role: "navigation"}
     %ul
+      %li
+        = link_to "index.html" do
+          %i.fa.fa-home
       %li{nav_active("about.html")}
         = link_to "About Me", "about.html"
       %li{nav_active("photos.html")}
