@@ -2,6 +2,7 @@ body.code {
   .projects {
     max-width: 85%;
     margin: 6em auto 3em;
+    padding: 0 1em;
     text-align: center;
 
     h5 {
@@ -60,6 +61,12 @@ body.code {
         width: 100%;
         display: block;
       }
+    }
+  }
+
+  @media only screen and (max-width: 50em) {
+    .projects {
+      max-width: 100%;
     }
   }
 }

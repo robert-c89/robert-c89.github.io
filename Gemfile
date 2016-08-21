@@ -17,4 +17,3 @@ gem 'middleman-gh-pages'      # Build and deploy
 gem 'modular-scale'           # Modular scale typography
 gem 'middleman-autoprefixer'  # Middleman autoprefixer
 gem "middleman-favicon-maker" # Favicon generator
-gem 'font-awesome-middleman'       # Font Awesome icons

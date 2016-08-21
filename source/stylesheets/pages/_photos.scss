@@ -55,4 +55,10 @@ body.photos {
       height: auto;
     }
   }
+
+  @media only screen and (max-width: 50em) {
+    .gallery {
+      max-width: 100%;
+    }
+  }
 }
