@@ -15,7 +15,6 @@ document.onreadystatechange = ->
           img.src = img.src.replace(/.svg$/, '.png')
 
 lightbox.option(
-  'alwaysshowNavOnTouchDevices': true,
   'disableScrolling': true,
   'showImageNumberLabel': false
 )

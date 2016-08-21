@@ -16,3 +16,4 @@ gem 'middleman-imageoptim'
 gem 'middleman-gh-pages'      # Build and deploy
 gem 'modular-scale'           # Modular scale typography
 gem 'middleman-autoprefixer'  # Middleman autoprefixer
+gem "middleman-favicon-maker" # Favicon generator
